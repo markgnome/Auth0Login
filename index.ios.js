@@ -52,7 +52,7 @@ export default class AwesomeProject extends Component {
     .then((response) => response.text())
     .then((quote) => { 
       AlertIOS.alert(
-        "Chuck Norris Quote:", quote)
+        "Chuck Norris Quotes:", quote)
     })
     .done();
   }
